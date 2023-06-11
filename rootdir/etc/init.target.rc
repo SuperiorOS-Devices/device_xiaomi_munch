@@ -65,8 +65,8 @@ on boot
     write /sys/module/msm_drm/parameters/kcal_red 255
     write /sys/module/msm_drm/parameters/kcal_green 255
     write /sys/module/msm_drm/parameters/kcal_blue 255
-    write /sys/module/msm_drm/parameters/kcal_sat 278
-    write /sys/module/msm_drm/parameters/kcal_cont 264
+    write /sys/module/msm_drm/parameters/kcal_sat 270
+    write /sys/module/msm_drm/parameters/kcal_cont 256
     
 on early-fs
     start vold
