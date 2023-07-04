@@ -5,9 +5,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/banana_munch.mk
+    $(LOCAL_DIR)/superior_munch.mk
 
 COMMON_LUNCH_CHOICES := \
-    banana_munch-user \
-    banana_munch-userdebug \
-    banana_munch-eng
+    superior_munch-user \
+    superior_munch-userdebug \
+    superior_munch-eng
