@@ -11,28 +11,29 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 # Inherit from munch device
 $(call inherit-product, device/xiaomi/munch/device.mk)
 
-# Inherit some common PixelStar stuff.
-$(call inherit-product, vendor/aosp/config/common_full_phone.mk)
+# Inherit some common SuperiorOS stuff.
+$(call inherit-product, vendor/superior/config/common.mk)
 
+# Officialify
+SUPERIOR_OFFICIAL := true
 
-# PixelStar Flags
-TARGET_INCLUDE_WIFI_EXT := true
+# Bootanimation
 TARGET_BOOT_ANIMATION_RES := 1080
-TARGET_FACE_UNLOCK_SUPPORTED := true
-TARGET_INCLUDE_LIVE_WALLPAPERS := true
-TARGET_SUPPORTS_QUICK_TAP  := true
 
-#Skip Aperture Camera
-PRODUCT_NO_CAMERA := true
+# Supported Device Flags
+TARGET_SUPPORTS_NOW_PLAYING := true
+TARGET_INCLUDE_STOCK_ARCORE := true
 
-#Pixel Launcher Extended
-PIXEL_LAUNCHER_VARIANT := glance13
+#Superior OS Flags
+TARGET_INCLUDE_PIXEL_CHARGER := true
+BUILD_WITH_GAPPS := true
+TARGET_GAPPS_ARCH := arm64
+TARGET_ENABLE_BLUR := true
 
-# PixelStar Maintainer Flags
-PIXELSTAR_MAINTAINER := Mudit
-CUSTOM_BUILD_TYPE := OFFICIAL
+# Quick Tap Feature
+TARGET_SUPPORTS_QUICK_TAP := true
 
-PRODUCT_NAME := aosp_munch
+PRODUCT_NAME := superior_munch
 PRODUCT_DEVICE := munch
 PRODUCT_MANUFACTURER := Xiaomi
 PRODUCT_BRAND := POCO
