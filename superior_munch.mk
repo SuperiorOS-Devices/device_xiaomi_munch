@@ -26,8 +26,6 @@ TARGET_INCLUDE_STOCK_ARCORE := true
 
 #Superior OS Flags
 TARGET_INCLUDE_PIXEL_CHARGER := true
-BUILD_WITH_GAPPS := true
-TARGET_GAPPS_ARCH := arm64
 TARGET_ENABLE_BLUR := true
 
 # Quick Tap Feature
