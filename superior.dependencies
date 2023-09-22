@@ -4,19 +4,19 @@
     	"repository":   "Mudit200408/decommon-vendor-xiaomi-munch",
     	"target_path":  "vendor/xiaomi/munch"
     	"branch": 	"tiramisu"
-    }
+    },
     {
     	"remote":       "github",
     	"repository":   "Mudit200408/device_xiaomi_munch-miuicamera",
     	"target_path":  "device/xiaomi/munch-miuicamera"
     	"branch":       "arrow-13.0"
-    }
+    },
     {
     	"remote":       "gitlab",
     	"repository":   "Mudit200408/vendor_xiaomi_munch-miuicamera",
     	"target_path":  "vendor_xiaomi_munch-miuicamera"
     	"branch":       "t"
-    }
+    },
     {
         "repository": "Mudit200408/kernel_xiaomi_sm8250",
         "target_path": "kernel/xiaomi/sm8250",
@@ -41,5 +41,8 @@
         "branch": "main",
         "remote": "github"
     },
-
+    {
+     	"repository":"android_packages_resources_devicesettings",
+    	"target_path":"packages/resources/devicesettings"
+    }
 ]
