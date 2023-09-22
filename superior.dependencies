@@ -3,7 +3,7 @@
     	"remote":       "gitlab",
     	"repository":   "Mudit200408/decommon-vendor-xiaomi-munch",
     	"target_path":  "vendor/xiaomi/munch"
-    	"branch": "tiramisu"
+    	"branch": 	"tiramisu"
     }
     {
     	"remote":       "github",
@@ -24,7 +24,7 @@
         "remote": "github"
     },
     {
-		"repository": "NotZeetaa/aosp-clang-17.0.0",
+	"repository": "NotZeetaa/aosp-clang-17.0.0",
         "target_path": "prebuilts/clang/host/linux-x86/clang-r487747",
         "branch":"master",
         "remote":"gitlab"
