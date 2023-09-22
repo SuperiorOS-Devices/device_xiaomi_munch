@@ -1,22 +1,22 @@
- [
+[
     {
-    	"remote":       "gitlab",
-    	"repository":   "Mudit200408/decommon-vendor-xiaomi-munch",
-    	"target_path":  "vendor/xiaomi/munch"
-    	"branch": "tiramisu"
-    }
+        "remote": "gitlab",
+        "repository": "Mudit200408/decommon-vendor-xiaomi-munch",
+        "target_path": "vendor/xiaomi/munch",
+        "branch": "tiramisu"
+    },
     {
-    	"remote":       "github",
-    	"repository":   "Mudit200408/device_xiaomi_munch-miuicamera",
-    	"target_path":  "device/xiaomi/munch-miuicamera"
-    	"branch":       "arrow-13.0"
-    }
+        "remote": "github",
+        "repository": "Mudit200408/device_xiaomi_munch-miuicamera",
+        "target_path": "device/xiaomi/munch-miuicamera",
+        "branch": "arrow-13.0"
+    },
     {
-    	"remote":       "gitlab",
-    	"repository":   "Mudit200408/vendor_xiaomi_munch-miuicamera",
-    	"target_path":  "vendor_xiaomi_munch-miuicamera"
-    	"branch":       "t"
-    }
+        "remote": "gitlab",
+        "repository": "Mudit200408/vendor_xiaomi_munch-miuicamera",
+        "target_path": "vendor/xiaomi/munch-miuicamera",
+        "branch": "t"
+    },
     {
         "repository": "Mudit200408/kernel_xiaomi_sm8250",
         "target_path": "kernel/xiaomi/sm8250",
@@ -24,22 +24,24 @@
         "remote": "github"
     },
     {
-		"repository": "NotZeetaa/aosp-clang-17.0.0",
+        "repository": "NotZeetaa/aosp-clang-17.0.0",
         "target_path": "prebuilts/clang/host/linux-x86/clang-r487747",
-        "branch":"master",
-        "remote":"gitlab"
+        "branch": "master",
+        "remote": "gitlab"
     },
     {
-        "repository": "LineageOS/android_hardware_xiaomi",
+        "repository": "hardware_xiaomi",
         "target_path": "hardware/xiaomi",
-        "branch": "lineage-20",
-        "remote": "github"
+        "branch": "munch"
     },
     {
         "repository": "CannedShroud/android_packages_apps_KProfiles",
-        "target_path": "packages/apps/KProfiles ",
+        "target_path": "packages/apps/KProfiles",
         "branch": "main",
         "remote": "github"
     },
-
+    {
+        "repository": "android_packages_resources_devicesettings",
+        "target_path": "packages/resources/devicesettings"
+    }
 ]
